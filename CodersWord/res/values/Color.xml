@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+<color name="splashText">#2F4F4F</color>
+
+<color name="backg">#EEE8AA</color>
+<color name="buttont">#EEE888</color>
+<color name="buttonbac">#FFFFFF</color>
+<color name="buttonunclick">#d3d3d3</color>
+<color name="actbutton">#800000</color>
+<color name="buttonclick">#939393</color>
+<color name="firstButton">#32CD32</color>
+<color name="secondButton">#FFD700</color>
+<color name="thirdButton">#FF0000</color>
+<color name="fourtButton">#00BFFF</color>
+<color name="ButtonColor">#3CB371</color>
+<color name="Button2">#4169E1</color>
+<color name="Button3">#DAA520</color>
+<color name="Button4">#FF0000</color>
+</resources>

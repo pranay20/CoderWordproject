@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:text="High Scores"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/hs_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="C : "
+            android:textSize="30sp"
+            android:textColor="@color/firstButton" />
+        <TextView
+            android:id="@+id/hs_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/hs_tv1"
+            android:layout_marginTop="45dp"
+            android:text="C++ : "
+            android:textSize="30sp"
+            android:textColor="@color/secondButton" />
+        
+        <TextView
+            android:id="@+id/hs_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/hs_tv2"
+            android:layout_marginTop="45dp"
+            android:text="Java : "
+            android:textSize="30sp"
+            android:textColor="@color/thirdButton" />
+        
+        <TextView
+            android:id="@+id/hs_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/hs_tv3"
+            android:layout_marginTop="45dp"
+            android:text="C# : "
+            android:textSize="30sp" 
+            android:textColor="@color/fourtButton"/>
+        
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

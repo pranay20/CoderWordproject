@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/t6_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <ProgressBar
+        android:id="@+id/t6_pb1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/t6_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="text"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/t6_b1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            
+            android:text="A"
+            android:textColor="@android:color/black"
+            android:background="@color/Button3"
+            android:textSize="80sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/t6_b2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/t6_b1"
+            android:text="B"
+            android:textSize="80sp"
+            tools:ignore="HardcodedText"
+            android:textColor="@android:color/black"
+            android:background="@color/Button3" />
+
+        <Button
+            android:id="@+id/t6_b3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/t6_b2"
+            android:text="C"
+            android:textSize="80sp"
+            tools:ignore="HardcodedText"
+            android:textColor="@android:color/black"
+            android:background="@color/Button3" />
+
+        <Button
+            android:id="@+id/t6_b4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@id/t6_b1"
+            android:layout_margin="5dp"
+            android:text="D"
+            android:textSize="80sp"
+            tools:ignore="HardcodedText"
+            android:textColor="@android:color/black"
+            android:background="@color/Button3" />
+
+        <Button
+            android:id="@+id/t6_b5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@id/t6_b2"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/t6_b4"
+            android:text="E"
+            android:textSize="80sp"
+            tools:ignore="HardcodedText" 
+            android:textColor="@android:color/black"
+            android:background="@color/Button3"/>
+
+        <Button
+            android:id="@+id/t6_b6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@id/t6_b2"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/t6_b5"
+            android:text="F"
+            android:textSize="80sp"
+            tools:ignore="HardcodedText"
+            android:textColor="@android:color/black"
+            android:background="@color/Button3" />
+
+    </RelativeLayout>
+
+</LinearLayout>
